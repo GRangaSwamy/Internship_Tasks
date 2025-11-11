@@ -1,0 +1,179 @@
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  min-height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1519389950473-47ba0277781c")
+      center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  padding: 10px 24px;
+  border-radius: 30px;
+}
+/* Cards Section */
+#cards {
+  background-color: #f8f9fa;
+}
+
+#cards h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#cards .card {
+  max-width: 280px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#cards .card img {
+  height: 140px;
+  width: 140px;
+  object-fit: contain;
+  margin: 20px auto 10px;
+  display: block;
+}
+
+#cards .card-body {
+  padding: 1rem;
+}
+
+#cards .card-title {
+  font-size: 1.1rem;
+}
+
+#cards .card-text {
+  font-size: 0.9rem;
+}
+#carousel-section {
+  background-color: #f8f9fa;
+}
+
+#carousel-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  height: 350px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.carousel-caption {
+  position: static;
+  color: #212529;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.carousel-caption h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #212529;
+}
+
+.carousel-caption p {
+  font-size: 0.9rem;
+  color: #495057;
+}
+#form-section {
+  background-color: #f8f9fa;
+}
+
+#form-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#form-section form {
+  border: 1px solid #dee2e6;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#form-section form:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+#form-section label {
+  color: #212529;
+}
+
+#form-section input,
+#form-section textarea {
+  border-radius: 8px;
+}
+
+#form-section button {
+  border-radius: 25px;
+  padding: 10px 0;
+}
+#modal-section {
+  background-color: #f8f9fa;
+}
+
+#modal-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#modal-section .btn-primary {
+  border-radius: 25px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#modal-section .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+#footer {
+  background-color: #212529;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#footer .text-secondary {
+  color: #adb5bd !important;
+}
